@@ -1,0 +1,64 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "firstName": "CJ",
+            "lastName": "Tate",
+            "classes": ["1","2"],
+            "apartmentId": "null",
+            "dormId": "1"
+        },
+        {
+            "id": "2",
+            "firstName": "Landon",
+            "lastName": "Moore",
+            "classes": ["1"],
+            "apartmentId": "null",
+            "dormId": "1"
+        },
+        {
+            "id": "3",
+            "firstName": "Joe",
+            "lastName": "Moore",
+            "classes": ["2"],
+            "apartmentId": "1",
+            "dormId": "null"
+        },
+        {
+            "id": "4",
+            "firstName": "John",
+            "lastName": "Tate",
+            "classes": ["2"],
+            "apartment": "1",
+            "dormId": "null"
+        }
+    ],
+    "classes": [
+        {
+            "id": "1",
+            "name": "Bio 101",
+            "section": "213",
+            "users": ["1"]
+        },
+        {
+            "id": "2",
+            "name": "Chem 101",
+            "section": "123",
+            "users": ["1", "2"]
+        }
+    ],
+    "dorms": [
+        {
+            "id": "1",
+            "name": "Hess Hall",
+            "users": ["1", "2"]
+        }
+    ],
+    "apartments": [
+        {
+            "id": "1",
+            "name": "The Commons",
+            "users": ["3", "4"]
+        }
+    ]
+}

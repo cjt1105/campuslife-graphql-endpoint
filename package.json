@@ -1,0 +1,25 @@
+{
+  "name": "graphqlnode",
+  "version": "0.0.0",
+  "description": "GraphQL endpoint with mock database ",
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjt1105/campuslife-graphql-endpoints"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.1.0",
+    "axios": "^0.16.2",
+    "babel": "^5.8.23",
+    "express": "^4.13.3",
+    "express-graphql": "^0.4.5",
+    "graphql": "^0.4.14",
+    "mongoose": "^4.3.5"
+  },
+  "devDependencies": {
+    "json-server": "^0.12.0"
+  }
+}
